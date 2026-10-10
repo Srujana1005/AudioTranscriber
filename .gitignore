@@ -1,0 +1,14 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output and dependencies
+node_modules/
+dist/
+target/
+
+# IDE and operating system files
+.metadata/
+.DS_Store
+Thumbs.db
